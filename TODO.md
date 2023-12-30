@@ -1,0 +1,6 @@
+- convert to dfa
+  - https://www.youtube.com/watch?v=--CSVsFIDng
+  - https://www.youtube.com/watch?v=pnyXgIXpKnc
+  - https://www.youtube.com/watch?v=i-fk9o46oVY
+  - https://www.youtube.com/watch?v=dY1bCC6syLI
+  - https://www.youtube.com/watch?v=Y92dtMnarAU
