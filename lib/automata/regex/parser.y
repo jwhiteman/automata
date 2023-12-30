@@ -1,6 +1,7 @@
 class Regex::Parser
   options no_result_var
 rule
+  # grammar adapted from:
   # https://www.cs.sfu.ca/~cameron/Teaching/384/99-3/regexp-plg.html
 
   #---+----------------------------------------------------------+
@@ -9,11 +10,11 @@ rule
   # 1 | Collation-related bracket symbols | [==] [::] [..]       |
   # 2 | Escaped characters                | \<special character> |
   # 3 | Bracket expression                | []                   |
-  # 4 | Grouping                          | ()                   |
-  # 5 | Single-character-ERE duplication  | * + ? {m,n}          |
-  # 6 | Concatenation                     |                      |
+  # 4 | Grouping                          | ()                   |  *implemented
+  # 5 | Single-character-ERE duplication  | * + ? {m,n}          |  *implemented except {m,n}
+  # 6 | Concatenation                     |                      |  *implemented
   # 7 | Anchoring                         | ^ $                  |
-  # 8 | Alternation                       | |                    |
+  # 8 | Alternation                       | |                    |  *implemented
   #---+-----------------------------------+----------------------+
 
   regex
