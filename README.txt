@@ -10,8 +10,6 @@ NFA, DFA & a low-budget regex implementation in Ruby
 2. NFA & DFA can be generated from graphviz files
 3. Uses McNaughton-Yamada-Thompson to create regex
 
-A handy set of tools when working through Lexical Analysis in the Dragon Book
-
              ( _)                ( _)
             / / \\              / /\_\_
            / /   \\            / / | \ \
